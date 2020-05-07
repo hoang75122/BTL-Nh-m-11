@@ -1,0 +1,31 @@
+﻿@model TestBTL5.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Đăng ký tài khoản";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<div class="frameFromRegister">
+    <form action="/" method="post" id="formRegister">
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            Số điện thoại
+            <input class="form-control" name="Phone" />
+        </div>
+        <div class="form-group">
+            Mật khẩu
+            <input class="form-control" name="Password" type="password" />
+        </div>
+        <div class="form-group">
+            Họ tên
+            <input class="form-control" name="FullName" />
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success" type="submit">Đăng ký</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

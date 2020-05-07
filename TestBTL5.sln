@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBTL5", "TestBTL5\TestBTL5.csproj", "{E87AFF77-4B3F-4B16-BF02-29148C292998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E0AD7041-336C-47E2-AB0A-40709853B759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E87AFF77-4B3F-4B16-BF02-29148C292998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87AFF77-4B3F-4B16-BF02-29148C292998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87AFF77-4B3F-4B16-BF02-29148C292998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87AFF77-4B3F-4B16-BF02-29148C292998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0AD7041-336C-47E2-AB0A-40709853B759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AD7041-336C-47E2-AB0A-40709853B759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0AD7041-336C-47E2-AB0A-40709853B759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0AD7041-336C-47E2-AB0A-40709853B759}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F918DCF-4454-4412-AC43-4CAB029C3181}
+	EndGlobalSection
+EndGlobal

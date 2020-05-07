@@ -1,0 +1,12 @@
+E:\LapTrinhMang\TestBTL5\Core\bin\Debug\Core.dll.config
+E:\LapTrinhMang\TestBTL5\Core\bin\Debug\Core.dll
+E:\LapTrinhMang\TestBTL5\Core\bin\Debug\Core.pdb
+E:\LapTrinhMang\TestBTL5\Core\bin\Debug\EntityFramework.dll
+E:\LapTrinhMang\TestBTL5\Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\LapTrinhMang\TestBTL5\Core\bin\Debug\EntityFramework.xml
+E:\LapTrinhMang\TestBTL5\Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\LapTrinhMang\TestBTL5\Core\obj\Debug\Core.csprojAssemblyReference.cache
+E:\LapTrinhMang\TestBTL5\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+E:\LapTrinhMang\TestBTL5\Core\obj\Debug\Core.csproj.CopyComplete
+E:\LapTrinhMang\TestBTL5\Core\obj\Debug\Core.dll
+E:\LapTrinhMang\TestBTL5\Core\obj\Debug\Core.pdb

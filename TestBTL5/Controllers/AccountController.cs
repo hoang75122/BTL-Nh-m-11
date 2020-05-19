@@ -149,12 +149,13 @@ namespace TestBTL5.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
-            if (string.IsNullOrEmpty(model.Password)
+            if (string.IsNullOrEmpty(model.Phone)
                 || string.IsNullOrEmpty(model.FullName)
-                || string.IsNullOrEmpty(model.Phone))
+                || string.IsNullOrEmpty(model.Password))
                 return Json(new { check = false, ms = "Kiểm tra lại thông tin còn trống" });
             using (var de = new DataEntities())
             {
+                
                 model.ConfirmPassword = model.Password; //skip comfirm Pass
                 var user = new ApplicationUser { UserName = model.Phone};
                 var result = await UserManager.CreateAsync(user, model.Password);
